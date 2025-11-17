@@ -1,0 +1,40 @@
+# ------------------------------------------------------------------
+# Python/Jupyter/IDE Specific Files
+# ------------------------------------------------------------------
+
+# Byte-compiled / optimized / dynamically loaded files
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environment
+# You should *always* ignore your virtual environment folder.
+# Common names are 'venv', 'env', or similar.
+venv/
+env/
+
+# VS Code Files
+.vscode/
+
+# ------------------------------------------------------------------
+# Project-Specific Files (Based on your image)
+# ------------------------------------------------------------------
+
+# Output files that can be regenerated
+# These files likely contain large data or generated results.
+/output_images/
+/output_videos/
+/runs/
+
+# Training artifacts/models
+# This includes saved model weights or compiled models.
+*.pt
+*.pth
+/models/
+
+# Input data that might be too large for Git (e.g., raw videos)
+/input_videos/
