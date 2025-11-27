@@ -19,6 +19,10 @@ env/
 # This includes saved model weights or compiled models.
 *.pt
 *.pth
+*.avi
 /models/
+/runs/
+training/yolov5xu.pt
+yolov8x.pt
 # Input data that might be too large for Git (e.g., raw videos)
 /input_videos/
