@@ -18,6 +18,6 @@ The system is organized into several key components to deliver a full-stack anal
 
 Check out the output showing the player tracking, speed estimation, team assignment, and dynamic analysis in action:
 
-<video src="https://github.com/RCJ53498/FOOTBALL_ANALYSIS_SYSTEM/raw/main/output_videos/Final_Output.mp4" controls="controls" style="max-width: 100%;">
-  Your browser does not support the video tag.
-</video>
+https://github.com/RCJ53498/FOOTBALL_ANALYSIS_SYSTEM/raw/main/output_videos/Final_Output.mp4
+
+> **Note**: If the video does not auto-play, you can [click here to view or download the Final Output](https://github.com/RCJ53498/FOOTBALL_ANALYSIS_SYSTEM/raw/main/output_videos/Final_Output.mp4) directly.
