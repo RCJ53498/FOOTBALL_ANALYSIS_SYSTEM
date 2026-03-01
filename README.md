@@ -14,59 +14,10 @@ The system is organized into several key components to deliver a full-stack anal
 * **Passing Network Analyzer:** Generates graphical representations of passing connections and effectiveness between teammates.
 * **Video Output:** Generates annotated videos showing detections, tracks, and analysis overlays.
 
-## ⚙️ Prerequisites
+## 🎬 Final Output
 
-Before running the project, ensure you have the following installed:
+Check out the output showing the player tracking, speed estimation, team assignment, and dynamic analysis in action:
 
-* Python (3.8+)
-* Git (for cloning)
-* Anaconda/Miniconda (Recommended for environment management)
-
-### Environment Setup
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [YOUR REPO URL HERE]
-    cd FOOTBALL_ANALYSIS_SYSTEM
-    ```
-2.  **Create and activate the environment:**
-    ```bash
-    conda create -n football-env python=3.9
-    conda activate football-env
-    ```
-3.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    # If requirements.txt is missing, list the main dependencies here:
-    # pip install opencv-python numpy pandas ultralytics
-    ```
-
-## 📂 Project Structure
-
-The key components of the system are housed in the following directories:
-
-| Directory | Description |
-| :--- | :--- |
-| `input_videos/` | Placeholder for raw video files (ignored by Git, but needed for input). |
-| `models/` | **[CRITICAL]:** Stores pre-trained weight files (e.g., `yolov8x.pt`, `best.pt`). **These are ignored by Git and must be [DOWNLOADED SEPARATELY / PLACED HERE].** |
-| `output_videos/` | Generated analysis videos (ignored by Git). |
-| `output_images/` | Generated network graphs and output images. |
-| `passing_network_analyzer/`| Core logic for analyzing player positions and generating passing networks. |
-| `speed_and_distance_estimator/` | Module for calculating kinematic data using camera movement compensation. |
-| `team_assigner/` | Logic for grouping players into their respective teams. |
-| `utils/` | Helper functions (e.g., `bbox_utils.py`, `video_utils.py`). |
-
-## 🚀 Usage
-
-### 1. Place Input File and Models
-
-1.  Place your raw video file (e.g., `08fd33_4.mp4`) into the `/input_videos/` directory.
-2.  **Download all necessary model weights** (e.g., `yolov8x.pt`, `best.pt`) and place them in the `/models/` directory.
-
-### 2. Run the Analysis Pipeline
-
-Execute the main script from the root directory:
-
-```bash
-python main.py
-# OR: python yolov8_inference.py --input_video input_videos/08fd33_4.mp4
+<video src="https://github.com/RCJ53498/FOOTBALL_ANALYSIS_SYSTEM/raw/main/output_videos/Final_Output.mp4" controls="controls" style="max-width: 100%;">
+  Your browser does not support the video tag.
+</video>
